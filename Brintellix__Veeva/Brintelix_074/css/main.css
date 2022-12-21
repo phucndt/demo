@@ -39,3 +39,41 @@
   vertical-align: 10px;
   margin-left: -7px;
 }
+
+.text1{
+  position: absolute;
+  left:103px;
+  top:96px;
+  font-size:21px;
+  line-height: 1.1;
+}
+
+.text2{
+  font-family: "3_JLVNQG+AvenirNextLTPro-Regular";
+  line-height: 1.2;
+}
+
+.back-button{
+  width: 38px;
+  height: 38px;
+  background: url(../images/backButton.png);
+  background-size:contain;
+  transform: translate(982px, 94px);
+  position: absolute;
+}
+
+.back-text{
+  color:red;
+  transform: translate(945px, 108px);
+  position: absolute;
+}
+
+.background-style{
+  width: 877px;
+  height: 392px;
+  background-image: url(../images/backgroundStyle.png);
+  /* transform: translate(103,205); */
+  transform: matrix(1, 0, 0, 1, 103, 205.5);
+  position: absolute;
+  background-size:contain;
+}
